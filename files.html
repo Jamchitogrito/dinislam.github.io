@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="urf-8">
+        <title>файлы Динислама</title>
+        <style>
+            body{
+                font-family: Araial, sans-serif;
+            }
+            .container{
+                display: flex;
+                min-height: 100vh;
+            }
+            .sidebar{
+                background-color: black;
+                color: white;
+                width: 120px;
+                padding: 30px;
+            }
+            .sidebar a{
+                text-decoration: none;
+                color: white;
+                display: block;
+                margin-bottom: 8px;
+                padding: 14px, 20px;
+                border-radius: 6px;
+            }
+            .sidebar a:hover{
+                background-color: #333;
+            }
+            .sidebar a.active{
+                border-right: 4px solid white;
+                border-radius: 6px;
+            }
+            .main{
+                flex-grow: 1;
+                padding: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <aside class="sidebar"> 
+                <h3>Меню</h3>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О себе</a>
+                <a href="works.html">Мои работы</a>
+                <a href="#" class="active">Файлы</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="links.html" >Ссылки</a>
+            </aside>
+            <div class="main">
+                <h1>Файлов пока нету</h1>
+            </div>
+        </div>
+    </body>
+</html>
