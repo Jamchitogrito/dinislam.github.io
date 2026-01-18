@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <meta charset="urf-8">
+        <meta charset="utf-8">
         <title>работы Динислама</title>
         <style>
             body{
@@ -23,7 +23,6 @@
                 color: white;
                 display: block;
                 margin-bottom: 8px;
-                padding: 14px, 20px;
                 border-radius: 6px;
             }
             .sidebar a:hover{
@@ -41,7 +40,25 @@
                 display: block;
                 margin-bottom: 10px;
             }
-            
+            thead{
+                font-weight: bold;
+                background-color: rgb(155, 154, 154);
+            }
+            table{
+                border-collapse: collapse;
+            }
+            td{
+                height: 30px;
+                border: solid 1px black;
+                text-align: center;
+                }
+            .td1{
+                text-align: left;
+                font-weight: bold;
+            }
+            .td2{
+                text-align: left;
+            }
         </style>
     </head>
     <body>
@@ -75,7 +92,24 @@
                 </ul>
                 <h6>Тут для первого списка машины и джостики испольовались ненумерованные</h6>
                 <h1>Задание 3.2</h1>
-
+                <h3>Вариант 6</h3>
+                <table>
+                    <caption>Структура программ на языке Паскаль</caption>
+                    <thead>
+                        <tr> <td colspan="3">Раздел</td> <td>Оператор</td> <td colspan="3">Значение</td></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td colspan="3" rowspan="7">Описание данных</td><td class="td1">Programm</td><td class="td2">Заголовок программы</td></tr>
+                        <tr><td class="td1">Label</td><td class="td2">Метки</td></tr>
+                        <tr><td class="td1">Const</td><td class="td2">Константы</td></tr>
+                        <tr><td class="td1">Type</td><td class="td2">Типы</td></tr>
+                        <tr><td class="td1">Var</td><td class="td2">Переменные</td></tr>
+                        <tr><td class="td1">Procedure</td><td class="td2">Процедуры</td></tr>
+                        <tr><td class="td1">Function</td><td class="td2">Функции</td></tr>
+                        <tr><td colspan="3" rowspan="2">Описание действий</td><td class="td1">Begin</td><td class="td2">Начало программы</td></tr>
+                        <tr><td class="td1">End</td><td class="td2">Конец программы</td></tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </body>
