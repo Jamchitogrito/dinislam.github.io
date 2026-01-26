@@ -62,6 +62,7 @@
             .td2{
                 text-align: left;
             }
+            
         </style>
     </head>
     <body>
@@ -82,27 +83,30 @@
                         <a href="#task3.1">Задание 3.1</a>
                         <a href="#task3.2">Задание 3.2</a>
                         <a href="#task4.1">Задание 4.1</a>
-                        <a href="#">Задание 4.2</a>
-                        <a href="#">Задание 5.1</a>
-                        <a href="#">Задание 5.2</a>
+                        <a href="#task4.2">Задание 4.2</a>
+                        <a href="#task5">Задание 5</a>
                     </ul>
                 </div>
                 <h1 id="task3.1">Задание 3.1</h1>
                 <h3>списки:</h3>
                 <ul>
-                    <h3>Машины</h3>
-                    <ol>
-                        
-                        <li>Калина</li>
-                        <li>Веста</li>
-                        <li>Приора</li>
-                    </ol>
-                    <h3>Джостики</h3>
-                    <ol>
-                        <li>PlayStation DualSense</li>
-                        <li>Xbox Wireless Controller</li>
-                        <li>8bitDo Ultimate 2C</li>
-                    </ol>
+                    <li>
+                        <h3>Машины</h3>
+                        <ol>
+                            
+                            <li>Калина</li>
+                            <li>Веста</li>
+                            <li>Приора</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>Джостики</h3>
+                        <ol>
+                            <li>PlayStation DualSense</li>
+                            <li>Xbox Wireless Controller</li>
+                            <li>8bitDo Ultimate 2C</li>
+                        </ol>
+                    </li>
                 </ul>
                 <h6>Тут для первого списка машины и джостики испольовались ненумерованные</h6>
                 <h1 id="task3.2">Задание 3.2</h1>
@@ -161,8 +165,32 @@
                     </tbody>
                 </table>
                 <h1>Задание 4.2</h1>
-                <video src="videos/coolNero.mp4" width="400" height="300" autoplay loop controls></video>
+                <video src="videos/coolNero.mp4" width="400" height="300" controls autoplay loop ></video>
+                <audio src="audio/Devil_Trigger_DMC_5.mp3" controls loop></audio>
+                <h1 id="task5">Задание 5</h1>
+                <form action="">
+                    <fieldset>
+                        <h5>Заполните анкету</h5>
+                        <p>Имя: </p>
+                        <p><input type="text" name="inputName"></p>
+                        <p>Пол:</p>
+                        <p><input type="radio" value="gender" name="Gender">Мужской</p>
+                        <p><input type="radio" value="gender" name="Gender">Женский</p>
+                        <p>Какие языки програмирования вы знаете?
 
+                            <input type="radio" name="PN" value="PHP" id="0">PHP
+                            <input type="radio" name="PN" value="C++" id="1">C++
+                            <input type="radio" name="PN" value="Java" id="2">Java
+
+                        </p>
+                        <p>Ваш коментарий
+                            <textarea name="coment" id="coment"></textarea>
+                        </p>
+                        <p><input type="submit" value="Отправить">
+                            <input type="reset" value="Очистить"></p>
+                    </fieldset>
+                </form>
+                
             </div>
         </div>
     </body>
