@@ -12,6 +12,9 @@
                 display: flex;
                 min-height: 100vh;
             }
+            .aside a{
+                text-decoration: none;
+            }
             .sidebar{
                 background-color: black;
                 color: white;
@@ -73,7 +76,18 @@
                 <a href="links.html" >Ссылки</a>
             </aside>
             <div class="main">
-                <h1>Задание 3.1</h1>
+                <div>
+                    <h2>Быстрая навигация</h2>
+                    <ul class="aside">
+                        <a href="#task3.1">Задание 3.1</a>
+                        <a href="#task3.2">Задание 3.2</a>
+                        <a href="#task4.1">Задание 4.1</a>
+                        <a href="#">Задание 4.2</a>
+                        <a href="#">Задание 5.1</a>
+                        <a href="#">Задание 5.2</a>
+                    </ul>
+                </div>
+                <h1 id="task3.1">Задание 3.1</h1>
                 <h3>списки:</h3>
                 <ul>
                     <h3>Машины</h3>
@@ -91,7 +105,7 @@
                     </ol>
                 </ul>
                 <h6>Тут для первого списка машины и джостики испольовались ненумерованные</h6>
-                <h1>Задание 3.2</h1>
+                <h1 id="task3.2">Задание 3.2</h1>
                 <h3>Вариант 6</h3>
                 <table>
                     <caption>Структура программ на языке Паскаль</caption>
@@ -110,6 +124,45 @@
                         <tr><td class="td1">End</td><td class="td2">Конец программы</td></tr>
                     </tbody>
                 </table>
+                <h1 id="task4.1">Задание 4.1</h1>
+                <table>
+                    <thead>
+                        <tr> <td colspan="3">Жители бикини боттома</td></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="imagePages/sponjbob.html">
+                                    <img src="images/sponjbob.jpg" width="100" alt="губка боб">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="imagePages/patrick.html"">
+                                    <img src="images/patrick.jpg" width="100" alt="патрик">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="imagePages/misterKrabs.html">
+                                    <img src="images/krabs.jpg" width="100" alt="мистер крабс">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Спанч боб</p>
+                            </td>
+                            <td>
+                                <p>Патрик</p>
+                            </td>
+                            <td>
+                                <p>Мистер крабс</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h1>Задание 4.2</h1>
+                <video src="videos/coolNero.mp4" width="400" height="300" autoplay loop controls></video>
+
             </div>
         </div>
     </body>
