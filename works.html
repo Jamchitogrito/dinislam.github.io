@@ -176,25 +176,26 @@
                     <fieldset>
                         <h5>Заполните анкету</h5>
                         <p>Имя: </p>
-                        <p><input type="text" name="inputName"></p>
+                        <p><input required type="text" name="inputName"></p>
                         <p>Пол:</p>
-                        <p><input type="radio" value="gender" name="Gender">Мужской</p>
+                        <p><input type="radio" required value="gender" name="Gender">Мужской</p>
                         <p><input type="radio" value="gender" name="Gender">Женский</p>
                         <p>Какие языки програмирования вы знаете?
 
-                            <input type="radio" name="PN" value="PHP" id="0">PHP
-                            <input type="radio" name="PN" value="C++" id="1">C++
-                            <input type="radio" name="PN" value="Java" id="2">Java
+                            <input type="checkbox"  name="PN" value="PHP" id="0">PHP
+                            <input type="checkbox" name="PN" value="C++" id="1">C++
+                            <input type="checkbox" name="PN" value="Java" id="2">Java
 
                         </p>
                         <p>Ваш коментарий
-                            <textarea name="coment" id="coment"></textarea>
+                            <textarea required name="coment" id="coment"></textarea>
                         </p>
                         <p><input type="submit" value="Отправить">
                             <input type="reset" value="Очистить"></p>
                     </fieldset>
                 </form>
-                
+                <h1>Лабараторная работа #2</h1>
+                <a href="workPages/laba2/laba2.html">Клик</a>
             </div>
         </div>
     </body>
